@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SQLITEWRAP
+Version: 0.0.1
+Summary: This is a simple wrapper class for sqlite
+Author-email: Roy Noan <roynoan@gmail.com>
+Project-URL: Homepage, https://github.com/Roysoldier/sqlitewrap
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sqlite Wrapper
+
+This is a simple wrapper class for sqlite
