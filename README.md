@@ -8,4 +8,4 @@
 ## Sqlite Wrapper 
 
 To use python 3.7> requires.  
-To initialise a new connection/table caling the class `SqliteWrap()´
+To initialise a new connection/table caling the class ˋSqliteWrap()ˋ
