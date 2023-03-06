@@ -1,4 +1,4 @@
-# Changes 
+## Changes 
 
 This is a simple wrapper class for sqlite
 
@@ -7,4 +7,4 @@ This is a simple wrapper class for sqlite
 * Initialization of the first commands without bug fixing,
 * Initialize on pypi relase.
 
-# Sqlite Wrapper 
+## Sqlite Wrapper 
