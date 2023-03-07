@@ -3,7 +3,7 @@ import sqlite3
 class SqliteWrap:
     
     def __init__(self,nameDb=""):
-        self.conn = sqlite3.connect(nameDb)
+        self.conn = sqlite3.connect(nameDb,check_same_thread=False)
         self.cursor = self.conn.cursor()
     
     def create_table(self, tableName="", listFields = []):
@@ -86,6 +86,3 @@ class SqliteWrap:
         except Exception as e:
             return 0,e
        
-
-
-
