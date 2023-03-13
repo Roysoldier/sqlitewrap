@@ -58,6 +58,16 @@ class SqliteWrap:
         except Exception as e:
             return [],e
         
+    def read_row(self,tableName="", condition=""):
+        try:
+            myCmd = f"SELECT * FROM {tableName} WHERE {condition}"
+            result = self.cursor.execute(myCmd).fetchall()
+            if result[0][0] == None:
+                return [], None
+            return result,None
+        except Exception as e:
+            return [],e
+        
     def reset_table(self,tableName=""):
         try:
             self.cursor.execute(f"DELETE FROM {tableName}")
